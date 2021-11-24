@@ -1,0 +1,458 @@
+html {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.logo-div {
+    justify-content: start;
+}
+
+.logo {
+    max-height: 8rem;
+}
+
+.socials-div {
+    justify-content: flex-end;
+    height: 100%;
+    padding-bottom: 1rem;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom: 0.25rem solid black;
+    padding-left: 3.2rem;
+    margin-right: 1rem;
+}
+
+.discord {
+    max-height: 3.5rem;
+}
+
+.twitter {
+    max-height: 2.5rem;
+    margin: 1.2rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+main > p {
+    width: 60%;
+    font-size: 1.1rem;
+}
+
+main > p:last-of-type {
+    margin-bottom: 3rem;
+}
+
+main > h1 {
+    border-bottom: 0.4rem solid black;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    max-width: 70%;
+    text-align: center;
+    padding: 0 3rem;
+}
+
+span {
+    color: rgb(110, 110, 110);
+}
+
+.email {
+    color: black;
+    font-weight: 700;
+}
+
+.email-button {
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    width: 40%;
+    justify-content: center;
+    background-color: whitesmoke;
+    border: 3px solid rgba(0, 0, 0, 0.75);
+    border-radius: 0.5rem;
+    transition: all ease-in-out 0.2s;
+    padding: 0;
+    font-size: 0.85rem;
+}
+
+.email-button > a {
+    color: black;
+    text-decoration: none;
+    width: 100%;
+}
+
+.email-button > h3 {
+    width: 100%;
+}
+
+.email-button:hover {
+    opacity: 0.5;
+}
+
+.info {
+    display: flex;
+    color: whitesmoke;
+    background-color: black;
+    background-image: url("./images/nft-bg.png");
+}
+
+.info > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    min-height: 12.75rem;
+}
+
+.left-h2 {
+    border-bottom: 0.25rem solid whitesmoke;
+    padding-bottom: 0.5rem;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    width: 80%;
+    padding-right: 1rem;
+    text-align: left;
+}
+
+.left > p {
+    text-align: center;
+}
+
+.info > div > p {
+    width: 80%;
+    font-size: 1.1rem;
+}
+
+.img-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-div > img {
+    max-height: 100%;
+    width: 100%;
+    opacity: 0.2;
+    object-fit: cover;
+    margin-left: 2rem;
+    margin-right: -2rem;
+}
+
+.right-h2 {
+    text-align: right;
+    width: 80%;
+    font-weight: 700;
+    font-size: 2rem;
+    border-bottom: 0.25rem solid whitesmoke;
+    padding-bottom: 0.5rem;
+    margin-right: 1rem;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.right > p {
+    text-align: center;
+}
+
+.team-h2 {
+    width: 25%;
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 5rem auto 2rem auto;
+    border-bottom: 5px solid black;
+    padding: 0 1rem;
+}
+
+.profiles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.profiles > div {
+    text-align: center;
+    width: 33.33%;
+    margin-bottom: 1rem;
+}
+
+.profiles > div > p, #bottom > div > p {
+    display: flex;
+    justify-content: center;
+    margin: 0.75rem;
+}
+
+.profiles > div > p:last-of-type, #bottom > div > p:last-of-type {
+    margin-bottom: 2rem;
+}
+
+.profiles > div > img, #bottom > div > img {
+    max-width: 8rem;
+    border-radius: 50%;
+    margin: 1rem 1rem;
+    border: 3px solid grey;
+}
+
+.profile-twitter {
+    max-height: 1rem;
+    margin-left: 0.5rem;
+}
+
+#bottom {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+#bottom > div {
+    width: 27.5%;
+}
+
+.packages {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5rem 0;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.packages > div {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.packages > h3 {
+    width: 25%;
+    text-align: center;
+    font-weight: 700;
+    margin: 0;
+    font-size: 3rem;
+    border-bottom: 5px solid black;
+}
+
+.packages > div > h4 {
+    padding: 0 1.2rem;
+    font-size: 1.7rem;
+}
+
+.packages > p {
+    width: 80%;
+    text-align: center;
+}
+
+.packages > p:last-of-type {
+    margin-bottom: 3rem;
+}
+
+.packages > * > ul {
+    padding: 0;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.packages > div > ul > li {
+    text-align: center;
+}
+
+.diamond {
+    border-bottom: 3px solid cornflowerblue;
+}
+
+.gold {
+    border-bottom: 3px solid gold;
+}
+
+.silver {
+    border-bottom: 3px solid silver;
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: whitesmoke;
+    margin: 0;
+    min-height: 12rem;
+    display: flex;
+}
+
+.footer > div {
+    width: 33.3%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+}
+
+.footer-h4 {
+    border-bottom: 2px solid whitesmoke;
+    margin: 0.3rem 3rem;
+    padding: 0.5rem 1rem;
+}
+
+.footer > div > p {
+    margin: 0.3rem;
+}
+
+.footer-logo-div > img {
+    max-height: 8rem;
+    margin-top: 0.5rem;
+}
+
+.socials-p {
+    display: flex;
+    align-items: center;
+}
+
+.footer-twitter-logo {
+    max-height: 1.2rem;
+    margin-left: 0.4rem;
+    padding-top: 0.3rem;
+}
+
+.footer-discord-logo {
+    max-height: 1.7rem;
+    margin-left: 0.4rem;
+    padding-top: 0.3rem;
+}
+
+.quotes-footer-div > p {
+    text-align: center;
+    width: 70%;
+}
+
+.footer-email {
+    font-weight: 700;
+    color: whitesmoke;
+}
+
+@media only screen and (max-width: 768px) {
+    .logo {
+        max-height: 5rem;
+    }
+
+    .twitter {
+        margin: 1rem;
+        margin-bottom: 0.5rem;
+        margin-right: 0.5rem;
+        max-height: 2rem;
+    }
+
+    .discord {
+        max-height: 3rem;
+    }
+
+    .wrapper {
+        padding-left: 1.5rem;
+    }
+
+    main > h1 {
+        font-size: 3rem;
+        padding: 0 1rem;
+    }
+
+    .email-button {
+        width: 65%;
+    }
+
+    .left-h2 {
+        padding-right: 0;
+        margin-left: 0;
+    }
+
+    .right-h2 {
+        margin-right: 0;
+        padding-left: 0;
+    }
+
+    .left-h2, .right-h2 {
+        font-size: 6vw;
+    }
+
+    .profiles {
+        flex-direction: column;
+    }
+
+    .team-h2 {
+        width: 75%;
+        font-size: 3rem;
+    }
+
+    .profiles > div {
+        width: 70%;
+    }
+
+    #bottom {
+        flex-direction: column;
+    }
+
+    #bottom > div {
+        width: 70%;
+    }
+
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 30rem;
+    }
+
+    .footer > div {
+        width: 90%;
+    }
+
+    .packages > h3 {
+        width: 80%;
+    }
+
+    .packages > div {
+        width: 100%;
+    }
+
+    .package > li {
+        width: 100%;
+        text-align: center;
+    }
+}
